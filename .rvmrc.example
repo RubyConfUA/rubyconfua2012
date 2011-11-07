@@ -1,0 +1,2 @@
+rvm use 1.9.2@rubyconfua2012 --create
+rvm rubygems 1.8.10

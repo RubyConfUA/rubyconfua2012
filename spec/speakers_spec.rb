@@ -8,7 +8,7 @@ describe RubyConfUA::Speakers do
 
   it { @speakers.count.should be_within(10).of(20) }
 
-  xit "should have awesome speakers" do
+  it "should have awesome speakers" do
     @speakers.awesomeness.should > 9000
   end
 end

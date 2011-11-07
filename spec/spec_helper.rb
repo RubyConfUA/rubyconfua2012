@@ -1,5 +1,3 @@
-puts File.expand_path("../../",  __FILE__)
-$: << File.expand_path("../../",  __FILE__)
-
+$LOAD_PATH.unshift(File.join(File.dirname(__FILE__), '..'))
 require 'rspec'
 require 'lib/rubyconfua'
